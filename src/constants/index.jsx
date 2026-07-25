@@ -18,11 +18,10 @@ const words = [
   { text: "Ideas", imgPath: `${BASE}images/ideas.svg` },
   { text: "Concepts", imgPath: `${BASE}images/concepts.svg`},
   { text: "Designs", imgPath: `${BASE}images/designs.svg` },
-  { text: "Code", imgPath: `${BASE}images/code.svg `},
   { text: "Ideas", imgPath: `${BASE}images/ideas.svg` },
   { text: "Concepts", imgPath: `${BASE}images/concepts.svg` },
-  { text: "Designs", imgPath: `${BASE}images/designs.svg` },
-  { text: "Code", imgPath: `${BASE}/images/code.svg` },
+  { text: "Designs", imgPath: `${BASE}images/designs.svg`},
+  { text: "Code", imgPath: `${BASE}images/code.svg` },
 ];
 
 const counterItems = [
@@ -52,28 +51,6 @@ const abilities = [
   },
 ];
 
-const techStackImgs = [
-  {
-    name: "React Developer",
-    imgPath: "/images/logos/react.png",
-  },
-  {
-    name: "Python Developer",
-    imgPath: "/images/logos/python.svg",
-  },
-  {
-    name: "Backend Developer",
-    imgPath: "/images/logos/node.png",
-  },
-  {
-    name: "Interactive Developer",
-    imgPath: "/images/logos/three.png",
-  },
-  {
-    name: "Project Manager",
-    imgPath: "/images/logos/git.svg",
-  },
-];
 
 const techStackIcons = [
   {
@@ -150,6 +127,5 @@ export {
   expCards,
   socialImgs,
   techStackIcons,
-  techStackImgs,
   navLinks,
 };
