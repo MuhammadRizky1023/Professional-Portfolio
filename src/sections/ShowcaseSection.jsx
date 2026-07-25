@@ -6,6 +6,7 @@ import { useGSAP } from "@gsap/react";
 gsap.registerPlugin(ScrollTrigger);
 
 const AppShowcase = () => {
+  const BASE = import.meta.env.BASE_URL;
   const sectionRef = useRef(null);
   const rydeRef = useRef(null);
   const libraryRef = useRef(null);
@@ -49,7 +50,7 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/HR.png" alt="Ryde App Interface" />
+              <img src={`${BASE}images/HR.png`} alt="Ryde App Interface" />
             </div>
             <div className="text-content">
               <h2>
@@ -65,14 +66,14 @@ const AppShowcase = () => {
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
               <div className="image-wrapper">
-               <img src="/images/gen-img.png" alt="Ryde App Interface" />
+               <img src={`${BASE}images/gen-img.png`} alt="The generate Image App" />
               </div>
               <h2>The generate Image App</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
               <div className="image-wrapper">
-                <img src="/images/chatbot-ai.png" alt="YC Directory App" />
+                <img src={`${BASE}images/chatbot-ai.png`} alt="Chatbot App" />
               </div>
               <h2>Chatbot App</h2>
             </div>
